@@ -1,0 +1,238 @@
+/* Import same base styles from userStyle.css */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+.sidebar {
+    width: 200px;
+    background: #3F51B5;
+    color: white;
+    height: 100vh; /* Full screen height */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+.image-container {
+    width: 70%;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 60%;
+    border: 3px solid #ccc;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.sidebar ul li:hover {
+    background: #34495e;
+    transform: scale(1.05);
+    border-radius: 5px;
+}
+
+.sidebar ul li.active {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 240px;
+}
+
+.header {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Logout button */
+.logout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Chart specific styles */
+.chart-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.chart-header h3 {
+    color: #3F51B5;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chart-filters {
+    display: flex;
+    gap: 15px;
+}
+
+.chart-filters select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fafafa;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.chart-filters select:focus {
+    border-color: #3F51B5;
+    box-shadow: 0 0 0 3px rgba(63, 81, 181, 0.15);
+    background-color: #fff;
+}
+
+.chart-wrapper {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .chart-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .chart-filters {
+        width: 100%;
+    }
+    
+    .chart-filters select {
+        flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .image-container {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sidebar ul li {
+        margin: 5px;
+    }
+
+    body {
+        flex-direction: column;
+    }
+    
+    .chart-container {
+        height: calc(100vh - 300px);
+    }
+}
