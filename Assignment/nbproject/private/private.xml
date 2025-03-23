@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/WEB-INF/web.xml</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/dal/SavingGoalDAO.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/userStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/user.jsp</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/sharingdata.jsp</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/dal/DBContext.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/transaction.jsp</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/model/Users.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/dal/CategoryDAO.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/controllers/UsersController.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/reportStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/img/background.jpg</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/dal/UsersDAO.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/dashboard.jsp</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/controllers/DashboardController.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/loginStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/img/user.jpg</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/sharingDataStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/dal/TransactionDAO.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/savingGoalsStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/dashboardStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/saving-goals.jsp</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/nbproject/build-impl.xml</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/META-INF/context.xml</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/model/Transaction.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/model/SavingGoal.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/registerStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/report.jsp</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/assets/css/transactionsStyle.css</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/src/java/model/Category.java</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/register.jsp</file>
+            <file>file:/C:/FPTU/SPRING%2025/PRJ301/CODE/Assignment/web/login.jsp</file>
+        </group>
+    </open-files>
+</project-private>
